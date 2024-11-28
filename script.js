@@ -17,5 +17,5 @@ let ticketPrice = kilometers * priceKm;
 // - va applicato uno sconto del 20% per i minorenni
 if (age < 18){ticketPrice *=0.8}
 // - va applicato uno sconto del 40% per gli over 65.
-
+if  (age > 65){ticketPrice *= 0.6;}
 //Dare al output il prezzo in forma umana
