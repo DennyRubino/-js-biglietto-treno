@@ -14,8 +14,8 @@ const age = prompt("Quanti anni hai?");
 // calcolare il costo del viaggio (0.21 € al km) 
 const priceKm = 0.21;
 let ticketPrice = kilometers * priceKm;
-
 // - va applicato uno sconto del 20% per i minorenni
+if (age < 18){ticketPrice *=0.8}
 // - va applicato uno sconto del 40% per gli over 65.
 
 //Dare al output il prezzo in forma umana
